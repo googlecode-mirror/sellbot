@@ -71,6 +71,9 @@ ini_set("html_errors", 0);
 * they are mostly the same for same type packets, but maybe it should
 * have been done anyway..  // auno - 2004/mar/26
 */
+
+define('SB_CHANSELECT', -1);
+
 define('AOCP_LOGIN_SEED',        0);
 define('AOCP_LOGIN_REQUEST',        2);
 define('AOCP_LOGIN_SELECT',        3);
