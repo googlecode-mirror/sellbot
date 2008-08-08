@@ -5,7 +5,7 @@
 	
 	// The following settings sort of speak for themselves.
 	$AccountName = 'Techboy';
-	$AccountPassword = 'mars379h';
+	$AccountPassword = '';
 	$ShopCharacter = 'Texon';
 	$ShopAdministrator = 'Toxor';
 
