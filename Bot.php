@@ -3,7 +3,11 @@
 	// SellBot
 	// By Demerzel, 2008
 	
+	set_time_limit(0);
+	echo ("\n\n\n\n\n");
 	echo ("\tSellBot\n\tCoded by Demerzel, 2008\n\tLicensed under the GNU General Public License\n\thttp://code.google.com/p/sellbot/\n\n");
+	sleep(5);
+
 	echo ('Loading... ');
 	
 	/*** Prepare ******/
@@ -13,6 +17,7 @@
 	include ( 'Assets/AOChat.php' );
 	include ( 'Assets/BotClass.php' );
 	include ( 'Assets/ChatBlobClass.php' );
+	include ( 'Assets/Consts.php' );
 	include ( 'Configuration.php' );
 	
 	$AOChat = new AOChat('Callback');
@@ -24,7 +29,7 @@
 	unset($AccountName); unset($AccountPassword);
 	
 	/*** Ready! ******/
-	
+
 	while ($AOChat->get_packet()) {
 	}
 	
@@ -43,7 +48,7 @@
 				break;		
 		
 			case AOCP_LOGIN_OK:
-				echo( "Login Successful.\n" );
+				echo( "Login Successful.\n\n" );
 				break;
 			
 			case AOCP_LOGIN_ERROR:
