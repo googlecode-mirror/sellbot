@@ -25,8 +25,9 @@
 	/*** Intialise ******/
 	
 	$Bot = new Bot( $AOChat, $ShopCharacter, $ShopAdministrator );
+	include ( 'Assets/ChatCmds.php' );
 	$Bot->Login( $Dimension, $AccountName, $AccountPassword );
-	unset($AccountName); unset($AccountPassword);
+	unset($AccountName); unset($AccountPassword);	
 	
 	/*** Ready! ******/
 
