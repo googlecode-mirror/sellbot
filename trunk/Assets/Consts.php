@@ -1,5 +1,11 @@
 <?php
 	
+	// Auth Levels
+	define ( 'AUTH_ANYBODY', 0 );
+	define ( 'AUTH_BOTOWNER', 10 );
+	define ( 'AUTH_SHOPOWNER', 8 );
+	define ( 'AUTH_ADMIN', 9 );
+	
 	// Blob Types
 
 	define ( 'BLOB_ABOUT', 0 );
