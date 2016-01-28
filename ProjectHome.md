@@ -1,0 +1,1 @@
+SellBot is an Anarchy Online chatbot written in PHP. The bot allows people to set up a bot which sends a message to the shopping channel at a specified time interval (which must be more than five minutes) with a link to their own personalised shop screen. Viewers of the shop can then place offers or reserve items. Auction functions will come in time.
